@@ -1,0 +1,55 @@
+sudo apt update
+sudo apt install nodejs npm -y
+
+
+node -v
+npm -v
+
+
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+
+
+sudo npm install -g solc
+
+
+solc --version
+
+
+Truffle is one of the most popular frameworks for building Ethereum applications. It provides tools for smart contract development, testing, and deployment.:-
+sudo npm install -g truffle
+
+
+truffle version
+
+
+
+Hardhat is another widely-used Ethereum development environment that offers a fast and flexible way to write, test, and deploy smart contracts.:-
+mkdir my-hardhat-project
+cd my-hardhat-project
+npm init -y
+npm install --save-dev hardhat
+
+
+
+npx hardhat
+
+
+
+To deploy and interact with smart contracts locally, you'll often want an Ethereum client like Ganache for local blockchain testing.
+
+Ganache UI: A desktop application that runs a personal Ethereum blockchain for development.
+Ganache CLI: A command-line version of Ganache.
+
+
+sudo npm install -g ganache-cli
+
+ganache-cli
+
+
+
+
+
+
+
+
